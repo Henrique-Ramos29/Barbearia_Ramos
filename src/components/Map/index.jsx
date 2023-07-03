@@ -36,6 +36,15 @@ const TitleMap = styled.h2`
 const MapLocalizacao = styled.iframe`
     border-radius: 6px;
     margin: 10px;
+
+    @media screen and (max-width: 380px) {
+        width: 300px;
+      height: 300px;   
+  }
+  @media screen and (max-width: 470px) {
+      width: 300px;
+      height: 300px;   
+  }
     
 `;
 
