@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import ImagemLogo from '../../imagem/Logo-Ramos.png'
-
+import { Link } from 'react-router-dom'
 
 const ContainerHeader = styled.header`
    display: flex;
@@ -26,9 +26,11 @@ const Lista = styled.li`
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 15px;
+    text-decoration: none;
 `;
 
-const Link = styled.a`
+const LinkLista = styled.a`
+     
      text-decoration: none;
      color: black;
 `;
@@ -39,10 +41,30 @@ function Header() {
             <Logo src={ImagemLogo} alt='Logo Barbearia Ramos' width='250' height='250'/>
               <Aba>
                 <ContainerLista>
-                    <Lista><Link href="#">HOME</Link></Lista>
-                    <Lista><Link href="#">SERVIÇOS</Link></Lista>
-                    <Lista><Link href="#">LOCALIZAÇÃO</Link></Lista>
-                    <Lista><Link href="#">CONTATO</Link></Lista>
+                    
+                    <Lista>
+                        <Link  to={'/'}>
+                         <LinkLista>
+                            HOME
+                         </LinkLista> 
+                        </Link>
+                    </Lista>
+
+                    <Lista>
+                        <Link  to={'/map'}>
+                            <LinkLista >
+                                LOCALIZAÇÃO
+                             </LinkLista>
+                        </Link>
+                    </Lista>
+
+                    <Lista>
+                    <Link  to={'/contato'}>
+                        <LinkLista>
+                            CONTATO
+                        </LinkLista>
+                    </Link>
+                    </Lista>
                 </ContainerLista>
               </Aba>
         </ContainerHeader>

@@ -1,4 +1,3 @@
-
 import styled from 'styled-components';
 import ImagemBanner from '../../imagem/Banner01.jpg';
 import Button from '../Button';
@@ -21,9 +20,9 @@ const Paragrafo = styled.p`
    @media screen and (max-width: 380px) {
       font-size: 30px;
   }
-  @media screen and (max-width: 470px) {
-      font-size: 30px;   
-  }
+        @media screen and (max-width: 470px) {
+            font-size: 30px;   
+        }
 `; 
 
 const Paragrafo02 = styled.p`
@@ -36,8 +35,8 @@ const Paragrafo02 = styled.p`
    @media screen and (max-width: 380px) {
       font-size: 15px;
   }
-  @media screen and (max-width: 470px) {
-      font-size: 15px;   
+        @media screen and (max-width: 480px) {
+            font-size: 15px;   
   }
    
 `;
