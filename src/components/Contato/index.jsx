@@ -3,7 +3,7 @@ import Whatsapp from '../../imagem/whatsapp.gif';
 import Instagram from '../../imagem/instagram.gif';
 
 const ContainerTitle = styled.div`
-   
+   text-shadow: 0.1em 0.1em 0.05em #333;
 `;
 
 const TitleContato = styled.h1`
@@ -32,8 +32,11 @@ const ImgIcones = styled.img`
 `;
 
 const TextIcones = styled.p`
+   font-family: 'Roboto', sans-serif;
    align-items: center;
-
+   font-size: 30px;
+   font-weight: bold;
+   margin: 10px;
 `;
 
  function Contato() {

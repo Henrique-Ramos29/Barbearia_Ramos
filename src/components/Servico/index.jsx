@@ -25,7 +25,7 @@ const DivContainer = styled.div`
      display: flex;
      flex-direction: column; 
      gap: 12px;
-
+     text-shadow: 0.1em 0.1em 0.05em #333;
 `;
 
 
@@ -40,7 +40,7 @@ const Title = styled.h1`
 const SubTitle = styled.h2`
      font-family: 'Roboto', sans-serif;
      text-align: center;
-     font-size: 20px;
+     font-size: 25px;
      font-weight: bold;
      margin: 15px;
      

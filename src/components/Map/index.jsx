@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ContainerTitle = styled.div`
-
+     text-shadow: 0.1em 0.1em 0.05em #333;
 `;
 
 const Title = styled.h1`
@@ -21,7 +21,7 @@ const ContainerMap = styled.div`
 
 const TitleMap = styled.h2`
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     margin: 60px;
     font-weight: bold;
 
