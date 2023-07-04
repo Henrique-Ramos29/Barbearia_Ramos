@@ -3,7 +3,8 @@ import Whatsapp from '../../imagem/whatsapp.gif';
 import Instagram from '../../imagem/instagram.gif';
 
 const ContainerTitle = styled.div`
-   text-shadow: 0.1em 0.1em 0.05em #333;
+    
+   
 `;
 
 const TitleContato = styled.h1`
@@ -18,6 +19,15 @@ const ContainerContato = styled.div`
    display: flex;
    justify-content: center;
    gap: 50px;
+   
+   @media screen and (max-width: 380px) {
+      display flex;
+      flex-direction: column;
+  }
+        @media screen and (max-width: 480px) {
+     g display flex;
+      flex-direction: column;
+  }
 `;
 
 const DivIcones = styled.div`

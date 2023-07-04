@@ -15,13 +15,13 @@ const Paragrafo = styled.p`
    font-size: 45px;
    color: white;
    margin-bottom: 10px;
-   text-shadow: 0.1em 0.1em 0.05em #333;
+   text-shadow: 0.1em 0.1em 0.05em black;
 
    @media screen and (max-width: 380px) {
-      font-size: 30px;
+      font-size: 36px;
   }
         @media screen and (max-width: 470px) {
-            font-size: 30px;   
+            font-size: 36px;   
         }
 `; 
 
@@ -30,13 +30,13 @@ const Paragrafo02 = styled.p`
    font-size: 30px;
    color: white;
    margin-bottom: 10px;
-   text-shadow: 0.1em 0.1em 0.05em #333;
+   text-shadow: 0.1em 0.1em 0.05em black;
 
    @media screen and (max-width: 380px) {
-      font-size: 15px;
+      font-size: 17px;
   }
         @media screen and (max-width: 480px) {
-            font-size: 15px;   
+            font-size: 17px;   
   }
    
 `;

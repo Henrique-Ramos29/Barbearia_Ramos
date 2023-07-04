@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ContainerTitle = styled.div`
-     text-shadow: 0.1em 0.1em 0.05em #333;
+    
 `;
 
 const Title = styled.h1`

@@ -25,7 +25,6 @@ const DivContainer = styled.div`
      display: flex;
      flex-direction: column; 
      gap: 12px;
-     text-shadow: 0.1em 0.1em 0.05em #333;
 `;
 
 
@@ -62,6 +61,10 @@ const Paragrafo = styled.p`
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+
+    &:hover {
+       color: #555555;
+      }
 `;
 
 const Servico = () => {
