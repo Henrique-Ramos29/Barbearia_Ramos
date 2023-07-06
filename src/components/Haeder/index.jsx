@@ -27,12 +27,18 @@ const Lista = styled.li`
     font-weight: bold;
     font-size: 15px;
     text-decoration: none;
+
+      
 `;
 
 const LinkLista = styled.a`
      
-     text-decoration: none;
+     text-decoration: underline;
      color: black;
+  
+       &:hover {
+         color: white;
+       }
 `;
 
 function Header() {
@@ -45,7 +51,7 @@ function Header() {
                     <Lista>
                         <MenuLink  to={'/'}>
                          <LinkLista>
-                            HOME
+                            Home
                          </LinkLista> 
                         </MenuLink>
                     </Lista>
@@ -53,7 +59,7 @@ function Header() {
                     <Lista>
                         <MenuLink  to={'/map'}>
                             <LinkLista >
-                                LOCALIZAÇÃO
+                                Localização
                              </LinkLista>
                         </MenuLink>
                     </Lista>
@@ -61,7 +67,15 @@ function Header() {
                     <Lista>
                     <MenuLink  to={'/contato'}>
                         <LinkLista>
-                            CONTATO
+                            Contato
+                        </LinkLista>
+                    </MenuLink>
+                    </Lista>
+
+                    <Lista>
+                    <MenuLink  to={'/fidelidade'}>
+                        <LinkLista>
+                            Fidelidade
                         </LinkLista>
                     </MenuLink>
                     </Lista>

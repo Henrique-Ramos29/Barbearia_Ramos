@@ -8,6 +8,15 @@ const Container = styled.div`
 
 const Imagem = styled.img`
    width: 100%;
+
+   @media screen and (max-width: 380px) {
+      font-size: 17px;
+      height: 500px;
+  }
+        @media screen and (max-width: 480px) {
+            font-size: 17px;
+            height: 500px;   
+  }
 `;
 
 const Paragrafo = styled.p`
@@ -19,9 +28,11 @@ const Paragrafo = styled.p`
 
    @media screen and (max-width: 380px) {
       font-size: 36px;
+      margin-top: -61px;
   }
         @media screen and (max-width: 470px) {
-            font-size: 36px;   
+            font-size: 36px;  
+            margin-top: -61px; 
         }
 `; 
 
@@ -55,7 +66,7 @@ const Divi = styled.div`
 export default function Banner() {
     return (
         <Container>
-            <Imagem src={ImagemBanner} alt='Imagem Banner' title='Banner' height="600" />
+            <Imagem src={ImagemBanner} alt='Imagem Banner' title='Banner' height="550" />
             <Divi>
              <Paragrafo>Agende agora seu horário!</Paragrafo>
              <Paragrafo02>Segunda a Sábado das 8:30 as 18:00</Paragrafo02>

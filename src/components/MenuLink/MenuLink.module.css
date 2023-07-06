@@ -1,8 +1,14 @@
 .link {
     font-size: 1.25rem;
-    line-height: 1.5rem;
+    line-height: 1.9rem;
     text-decoration: none;
     
+    
+}
+
+.link:hover {
+    background: black;
+    border-radius: 2px;
 }
 
 .linkDestacado {
@@ -10,10 +16,6 @@
     
 }
 
-.link:hover {
-    background: #555555;
-    border-radius: 2px;
-}
 
 .linkDestacado:hover {
     background: #555555;

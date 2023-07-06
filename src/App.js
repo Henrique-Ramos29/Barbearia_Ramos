@@ -9,6 +9,7 @@ import Contato from './components/Contato';
 import PaginaPadrao from './components/PaginaPadrao';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from './components/ScrollToTop';
+import Fidelidade from './components/Fidelidade';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Servico />} />
           <Route path="/map" element={<Map />} />
           <Route path="/contato" element={<Contato />} />
+          <Route path="/fidelidade" element={<Fidelidade />} />
         </Route>
       </Routes>
       <Footer />
