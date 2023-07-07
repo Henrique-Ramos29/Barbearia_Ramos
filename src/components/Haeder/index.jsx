@@ -62,7 +62,7 @@ const LinkLista = styled.a`
      color: black;
   
        &:hover {
-         color: #555555;
+         color: white;
        }
 
 `;
