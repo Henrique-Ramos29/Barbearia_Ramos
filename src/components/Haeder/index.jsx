@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import ImagemLogo from '../../imagem/Logo-Ramos.png'
 import MenuLink from '../MenuLink';
+import { BiSolidHome, BiLogoPeriscope, BiSolidUserCircle, BiSolidHeart } from "react-icons/bi"
 
 const ContainerHeader = styled.header`
    display: flex;
@@ -20,6 +21,17 @@ const ContainerLista = styled.ul`
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
+
+    @media screen and (max-width: 380px) {
+      display: flex;
+      flex-direction: column;
+
+      
+  }
+    @media screen and (max-width: 470px) {
+        display: flex;
+        flex-direction: column;
+  }
 `;
 
 const Lista = styled.li`
@@ -28,17 +40,31 @@ const Lista = styled.li`
     font-size: 15px;
     text-decoration: none;
 
+    @media screen and (max-width: 380px) {
+        box-shadow: 7px 11px 11px rgba(0, 0, 0, 0.08);
+        margin: 4px;
+        border-radius: 7px;
+        text-align: cente;
       
+  }
+    @media screen and (max-width: 470px) {
+        box-shadow: 7px 11px 11px rgba(0, 0, 0, 0.08);
+        margin: 4px;
+        border-radius: 7px;
+        text-align: center;
+        
+  }
 `;
 
 const LinkLista = styled.a`
      
-     text-decoration: underline;
+     text-decoration: none;
      color: black;
   
        &:hover {
-         color: white;
+         color: #555555;
        }
+
 `;
 
 function Header() {
@@ -51,6 +77,7 @@ function Header() {
                     <Lista>
                         <MenuLink  to={'/'}>
                          <LinkLista>
+                           <BiSolidHome size="18" />
                             Home
                          </LinkLista> 
                         </MenuLink>
@@ -59,6 +86,7 @@ function Header() {
                     <Lista>
                         <MenuLink  to={'/map'}>
                             <LinkLista >
+                            <BiLogoPeriscope size="18" />
                                 Localização
                              </LinkLista>
                         </MenuLink>
@@ -67,6 +95,7 @@ function Header() {
                     <Lista>
                     <MenuLink  to={'/contato'}>
                         <LinkLista>
+                         <BiSolidUserCircle size="18" />
                             Contato
                         </LinkLista>
                     </MenuLink>
@@ -75,6 +104,7 @@ function Header() {
                     <Lista>
                     <MenuLink  to={'/fidelidade'}>
                         <LinkLista>
+                        <BiSolidHeart size="18" />    
                             Fidelidade
                         </LinkLista>
                     </MenuLink>

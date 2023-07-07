@@ -29,7 +29,7 @@ const TitleMap = styled.h2`
     @media screen and (max-width: 380px) {
       text-align: center;
   }
-  @media screen and (max-width: 470px) {
+    @media screen and (max-width: 470px) {
       text-align: center;   
   }
 `;
