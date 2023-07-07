@@ -29,7 +29,6 @@ const DivContainer = styled.div`
 
 
 const Title = styled.h1`
-     font-family: 'Roboto', sans-serif;
      text-align: center;
      font-weight: bold;
      font-size: 40px;
@@ -37,7 +36,6 @@ const Title = styled.h1`
 `;
 
 const SubTitle = styled.h2`
-     font-family: 'Roboto', sans-serif;
      text-align: center;
      font-size: 25px;
      font-weight: bold;
@@ -57,7 +55,6 @@ const ImgProduto = styled.img`
 `;
 
 const Paragrafo = styled.p`
-    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 20px;
     font-weight: bold;

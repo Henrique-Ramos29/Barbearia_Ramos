@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 const Botao = styled.button`
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: black; /* Green */
   border-radius: 10px;
   border: 2px solid white;

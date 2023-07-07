@@ -10,7 +10,15 @@ const ContainerHeader = styled.header`
 `;
 
 const Logo = styled.img`
-     
+
+       @media screen and (max-width: 380px) {
+           width: 200px;
+           height:200px;
+        }
+            @media screen and (max-width: 470px) {
+                width: 200px;
+                height:200px;
+        }
 `;
 
 const Aba = styled.nav`
@@ -25,31 +33,32 @@ const ContainerLista = styled.ul`
     @media screen and (max-width: 380px) {
       display: flex;
       flex-direction: column;
+      width: 330px;
 
       
   }
     @media screen and (max-width: 470px) {
         display: flex;
         flex-direction: column;
+        width: 330px;
   }
 `;
 
 const Lista = styled.li`
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 15px;
     text-decoration: none;
 
     @media screen and (max-width: 380px) {
         box-shadow: 7px 11px 11px rgba(0, 0, 0, 0.08);
-        margin: 4px;
+        margin: 9px;
         border-radius: 7px;
         text-align: cente;
       
   }
     @media screen and (max-width: 470px) {
         box-shadow: 7px 11px 11px rgba(0, 0, 0, 0.08);
-        margin: 4px;
+        margin: 9px;
         border-radius: 7px;
         text-align: center;
         
@@ -62,7 +71,7 @@ const LinkLista = styled.a`
      color: black;
   
        &:hover {
-         color: white;
+         color: #555555;
        }
 
 `;
@@ -86,7 +95,7 @@ function Header() {
                     <Lista>
                         <MenuLink  to={'/map'}>
                             <LinkLista >
-                            <BiLogoPeriscope size="18" />
+                            <BiLogoPeriscope size="19" />
                                 Localização
                              </LinkLista>
                         </MenuLink>
@@ -95,7 +104,7 @@ function Header() {
                     <Lista>
                     <MenuLink  to={'/contato'}>
                         <LinkLista>
-                         <BiSolidUserCircle size="18" />
+                         <BiSolidUserCircle size="19" />
                             Contato
                         </LinkLista>
                     </MenuLink>
@@ -104,7 +113,7 @@ function Header() {
                     <Lista>
                     <MenuLink  to={'/fidelidade'}>
                         <LinkLista>
-                        <BiSolidHeart size="18" />    
+                        <BiSolidHeart size="19" />    
                             Fidelidade
                         </LinkLista>
                     </MenuLink>

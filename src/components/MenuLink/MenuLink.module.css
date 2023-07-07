@@ -7,7 +7,6 @@
 }
 
 .link:hover {
-    background: black;
     border-radius: 2px;
 }
 
@@ -23,13 +22,15 @@
 
  @media screen and (max-width: 380px) {
     .link {
-        font-size: 20px;
+        font-size: 25px;
         font-weight: bold;
-
     }
+
   }
+
   @media screen and (max-width: 470px) {
     .link {
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: bold;
     }   
   }

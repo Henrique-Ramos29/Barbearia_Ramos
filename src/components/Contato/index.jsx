@@ -8,7 +8,6 @@ const ContainerTitle = styled.div`
 `;
 
 const TitleContato = styled.h1`
-   font-family: 'Roboto', sans-serif;
    font-size: 40px;
    font-weight: bold;
    text-align: center;
@@ -25,7 +24,7 @@ const ContainerContato = styled.div`
       flex-direction: column;
   }
         @media screen and (max-width: 480px) {
-     g display flex;
+      display flex;
       flex-direction: column;
   }
 `;
@@ -42,7 +41,6 @@ const ImgIcones = styled.img`
 `;
 
 const TextIcones = styled.p`
-   font-family: 'Roboto', sans-serif;
    align-items: center;
    font-size: 30px;
    font-weight: bold;

@@ -20,7 +20,6 @@ const Imagem = styled.img`
 `;
 
 const Paragrafo = styled.p`
-   font-family: 'Roboto', sans-serif;
    font-size: 45px;
    color: white;
    margin-bottom: 10px;
@@ -37,7 +36,6 @@ const Paragrafo = styled.p`
 `; 
 
 const Paragrafo02 = styled.p`
-   font-family: 'Roboto', sans-serif;
    font-size: 30px;
    color: white;
    margin-bottom: 10px;

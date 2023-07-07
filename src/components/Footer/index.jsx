@@ -9,6 +9,15 @@ const Rodape = styled.footer`
 `;
 
 const ImgLogo = styled.img`
+
+   @media screen and (max-width: 380px) {
+           width: 200px;
+           height:200px;
+        }
+            @media screen and (max-width: 470px) {
+                width: 200px;
+                height:200px;
+        }
       
 `;
 

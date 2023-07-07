@@ -6,7 +6,6 @@ const ContainerTitle = styled.div`
 `;
 
 const Title = styled.h1`
-    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -21,7 +20,6 @@ const ContainerMap = styled.div`
 `;
 
 const TitleMap = styled.h2`
-    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     margin: 40px;
     font-weight: bold;
