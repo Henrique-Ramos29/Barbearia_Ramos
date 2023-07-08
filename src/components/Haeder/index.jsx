@@ -7,6 +7,7 @@ const ContainerHeader = styled.header`
    display: flex;
    flex-direction: column;
    align-items: center;
+   gap: 11px;
 `;
 
 const Logo = styled.img`

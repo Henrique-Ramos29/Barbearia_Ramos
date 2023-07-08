@@ -8,6 +8,7 @@ const Container = styled.div`
 
 const Imagem = styled.img`
    width: 100%;
+   
 
    @media screen and (max-width: 380px) {
       font-size: 17px;
