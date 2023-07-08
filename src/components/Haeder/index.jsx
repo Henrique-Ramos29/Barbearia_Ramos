@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import ImagemLogo from '../../imagem/Logo-Ramos.png'
 import MenuLink from '../MenuLink';
-import { BiSolidHome, BiLogoPeriscope, BiSolidUserCircle, BiSolidHeart } from "react-icons/bi"
+import { BiSolidHome, BiSolidMap, BiSolidUserCircle, BiSolidTrophy, BiSolidHappyAlt } from "react-icons/bi"
 
 const ContainerHeader = styled.header`
    display: flex;
@@ -96,7 +96,7 @@ function Header() {
                     <Lista>
                         <MenuLink  to={'/map'}>
                             <LinkLista >
-                            <BiLogoPeriscope size="19" />
+                            <BiSolidMap size="19" />
                                 Localização
                              </LinkLista>
                         </MenuLink>
@@ -114,8 +114,17 @@ function Header() {
                     <Lista>
                     <MenuLink  to={'/fidelidade'}>
                         <LinkLista>
-                        <BiSolidHeart size="19" />    
+                        <BiSolidTrophy size="19" />    
                             Fidelidade
+                        </LinkLista>
+                    </MenuLink>
+                    </Lista>
+
+                    <Lista>
+                    <MenuLink  to={'/noivo'}>
+                        <LinkLista>
+                        <BiSolidHappyAlt size="19" />    
+                            Dia do Noivo
                         </LinkLista>
                     </MenuLink>
                     </Lista>

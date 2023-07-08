@@ -21,11 +21,16 @@ const ImgLogo = styled.img`
       
 `;
 
+const ParagrafoStyled = styled.p`
+
+`
+
 function Footer() {
 
     return(
        <Rodape>
         <ImgLogo src={ImagemLogo} alt="Logo Barbearia Ramos" tiltle="Logo" width="230" height="230" />
+          <ParagrafoStyled>Developer Henrique Ramos</ParagrafoStyled>
        </Rodape>
     )
 }
