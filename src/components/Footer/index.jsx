@@ -22,7 +22,8 @@ const ImgLogo = styled.img`
 `;
 
 const ParagrafoStyled = styled.p`
-   margin-bottom: 20px;
+   margin-bottom: 30px;
+   font-weight: bold;
 
 `
 

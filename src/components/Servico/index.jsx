@@ -51,6 +51,7 @@ const ImgProduto = styled.img`
     &:hover {
         scale: 1.3;
         transition: .5s;
+        background-image: url(u);
       }
 
     @media screen and (max-width: 380px) {
@@ -83,6 +84,7 @@ const A = styled.a`
 
 
 const Servico = () => {
+
     return(
         <DivContainer>
             <Title>SERVIÇOS</Title>
@@ -90,7 +92,7 @@ const Servico = () => {
         <DisplayFlex>    
           <DivContainer>
             <A to={'/'}>
-              <ImgProduto src={ImgCabelo} width='270' height='270' />
+              <ImgProduto  src={ImgCabelo} width='270' height='270' />
             </A>
             <Paragrafo>Cabelo</Paragrafo>
           </DivContainer>

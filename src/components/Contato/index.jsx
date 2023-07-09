@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import Whatsapp from '../../imagem/whatsapp.gif';
-import Instagram from '../../imagem/instagram.gif';
+import { BiLogoWhatsapp, BiLogoInstagram } from "react-icons/bi";
 
 const ContainerTitle = styled.div`
     
@@ -37,14 +36,31 @@ const DivIcones = styled.div`
 
 `;
 
-const ImgIcones = styled.img`
-`;
-
 const TextIcones = styled.p`
+   display: flex;
+   text-align: center;
    align-items: center;
-   font-size: 30px;
+   font-size: 40px;
    font-weight: bold;
    margin: 10px;
+
+    &:hover {
+      scale: 1.4;
+      transition: 0.9s;
+    }
+
+    @media screen and (max-width: 380px) {
+      font-size: 30px;
+  }
+        @media screen and (max-width: 480px) {
+          font-size: 30px;
+  }
+`;
+
+const A = styled.a`
+   text-decoration: none;
+   color: black;
+   
 `;
 
  function Contato() {
@@ -55,13 +71,19 @@ const TextIcones = styled.p`
         <TitleContato>CONTATO</TitleContato>
         <ContainerContato>
           <DivIcones>
-            <ImgIcones src={Whatsapp} alt="Whatsapp" width="100"  height="100" />
-            <TextIcones>(47) 99924-7819</TextIcones>
-          </DivIcones>
-
-          <DivIcones>
-            <ImgIcones src={Instagram} alt="Instagram" width="100"  height="100"/>
-            <TextIcones>Barbearia_ramos</TextIcones>
+           <A target="_black" href="https://wa.link/anpp3p">
+            <TextIcones>
+              <BiLogoWhatsapp size="70" />
+            (47) 99924-7819
+            </TextIcones>
+             </A>
+          
+               <A target="_black" href="https://instagram.com/barbearia_ramos_23?igshid=ZDc4ODBmNjlmNQ==">
+              <TextIcones>
+              <BiLogoInstagram size="70" />
+              Barbearia_ramos
+              </TextIcones>
+               </A>
           </DivIcones>
         </ContainerContato>
       </ContainerTitle>
