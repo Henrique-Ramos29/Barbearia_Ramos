@@ -57,7 +57,7 @@ const LinkTagA = styled.a`
 
 const Divi = styled.div`
    position: absolute;
-   top: 250px;
+   top: 206px;
    left: 100px;
    gap: 17px;
 `;

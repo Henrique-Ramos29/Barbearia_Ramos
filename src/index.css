@@ -91,6 +91,9 @@ video {
     font: inherit;
     vertical-align: baseline;
     font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+
+
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -110,6 +113,7 @@ section {
 
 body {
     line-height: 1;
+    min-height: 100vh;
 }
 
 ol,

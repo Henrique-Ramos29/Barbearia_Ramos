@@ -22,6 +22,7 @@ const ImgLogo = styled.img`
 `;
 
 const ParagrafoStyled = styled.p`
+   margin-bottom: 20px;
 
 `
 

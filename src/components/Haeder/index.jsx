@@ -49,6 +49,11 @@ const Lista = styled.li`
     font-weight: bold;
     font-size: 15px;
     text-decoration: none;
+    
+      &:hover {
+        scale: 1.2;
+        transition: 0.6s;
+      }
 
     @media screen and (max-width: 380px) {
         box-shadow: 7px 11px 11px rgba(0, 0, 0, 0.08);
