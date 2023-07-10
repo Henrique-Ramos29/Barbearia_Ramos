@@ -19,7 +19,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<PaginaPadrao />} >
-          <Route path="/" element={<Servico />} />
+          <Route path="/servico" element={<Servico />} />
           <Route path="/map" element={<Map />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/fidelidade" element={<Fidelidade />} />

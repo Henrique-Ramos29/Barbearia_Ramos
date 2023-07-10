@@ -6,6 +6,7 @@ import ImgCabeloBarba from '../../imagem/cabelo - barba.jpg';
 
 const DisplayFlex = styled.div`
       display: flex;
+      position: relative;
       justify-content: center;
       gap: 70px;      
 
@@ -22,9 +23,11 @@ const DisplayFlex = styled.div`
 
 
 const DivContainer = styled.div`
+
      display: flex;
      flex-direction: column; 
      gap: 12px;
+     margin: 10px;
      
 `;
 
@@ -49,9 +52,9 @@ const ImgProduto = styled.img`
     cursor: pointer;
 
     &:hover {
-        scale: 1.3;
+        opacity: 70%;
+        scale: 1.1;
         transition: .5s;
-        background-image: url(u);
       }
 
     @media screen and (max-width: 380px) {
@@ -74,6 +77,18 @@ const Paragrafo = styled.p`
       }
 `;
 
+const Valor = styled.p` 
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  weight: bold;
+
+   &:hover {
+    color: #555555;
+  }
+
+`;
+
 const A = styled.a`
   
   
@@ -94,14 +109,17 @@ const Servico = () => {
             <A to={'/'}>
               <ImgProduto  src={ImgCabelo} width='270' height='270' />
             </A>
+            <Valor>R$ 15.00</Valor>
             <Paragrafo>Cabelo</Paragrafo>
           </DivContainer>
           <DivContainer>
             <ImgProduto src={ImgBarba} width='270' height='270' />
+            <Valor>R$ 15.00</Valor>
             <Paragrafo>Barba</Paragrafo>  
           </DivContainer>
           <DivContainer>
             <ImgProduto src={ImgCabeloBarba} width='270' height='270' />
+            <Valor>R$ 25.00</Valor>
             <Paragrafo>Cabelo + Barba</Paragrafo>
           </DivContainer>
         </DisplayFlex>
