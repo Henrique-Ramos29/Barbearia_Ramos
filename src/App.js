@@ -10,7 +10,7 @@ import PaginaPadrao from './components/PaginaPadrao';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from './components/ScrollToTop';
 import Fidelidade from './components/Fidelidade';
-import DiaNoivo from './components/DiaNoivo';
+import ClubRamos from './components/ClubRamos';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <Route path="/map" element={<Map />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/fidelidade" element={<Fidelidade />} />
-          <Route path="/noivo" element={<DiaNoivo />} />
+          <Route path="/clubramos" element={<ClubRamos />} />
         </Route>
       </Routes>
       <Footer />
