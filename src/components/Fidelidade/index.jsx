@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ImgF from '../../imagem/fidelidade.png';
+import ImgF from '../../imagem/fidelidade.gif';
 
 const ContainerFidelidade = styled.div` 
    font-family: 'Roboto', sans-serif;
@@ -21,7 +21,7 @@ const ImgFidelidade = styled.img`
         @media screen and (max-width: 480px) {
             width: 364px;
             height: 232px
-    
+        }
 `;
 
 const Title = styled.h1`
