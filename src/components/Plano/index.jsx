@@ -28,7 +28,7 @@ const CaixaStyled = styled.div`
    cursor: pointer;
    
     &:hover {
-        scale: 1.2;
+        scale: 1.1;
         transition: 0.7s;
     }
     
