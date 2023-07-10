@@ -74,7 +74,9 @@ export default function ClubRamos() {
                 </ParagrafoStyled>
                 <ParagrafoStyled>
                 Mas aí o custo para manter sua imagem pessoal ficaria alto não é mesmo? Errado!   
+                <ParagrafoStyled>
                 E se eu te disser que temos a solução perfeita pra você!
+                </ParagrafoStyled>
                 </ParagrafoStyled>
                 <ParagrafoStyled>
                 Um clube de assinatura de cabelo e barba! Que tal vir na barbearia alinhar sua barba e seu cabelo quantas vezes quiser, ilimitado e pagar apenas um valor fixo por mês pra isso?
