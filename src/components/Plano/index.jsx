@@ -34,10 +34,20 @@ const CaixaStyled = styled.div`
     
     @media screen and (max-width: 380px) {
           margin-left: 49px;
+
+          &:hover {
+        scale: 1.1;
+        transition: 0.5s;
+    }
       
   }
     @media screen and (max-width: 470px) {
         margin-left: 49px;
+        
+            &:hover {
+            scale: 1.1;
+            transition: 0.5s;
+        }
   }
 `;
 

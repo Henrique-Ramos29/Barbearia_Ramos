@@ -45,9 +45,11 @@ const ImgStyled = styled.img`
 
     @media screen and (max-width: 380px) {
         width: 350px;
+        height: 250px;
     }
         @media screen and (max-width: 470px) {
             width: 350px;  
+            height: 250px;
     }
 `;
 
