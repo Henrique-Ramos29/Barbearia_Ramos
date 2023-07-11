@@ -58,11 +58,11 @@ const ImgProduto = styled.img`
       }
 
     @media screen and (max-width: 380px) {
-      margin-left: 66px;
+      margin-left: 47px;
       width: 270px;
   }
      @media screen and (max-width: 470px) {
-        margin-left: 66px; 
+        margin-left: 47px; 
         width: 270px; 
   }
 `;
