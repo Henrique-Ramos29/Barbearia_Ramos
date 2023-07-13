@@ -76,6 +76,10 @@ const Paragrafo = styled.p`
   margin-bottom: 30px;
 `;
 
+const A = styled.a`
+    text-decoration: none;
+`;
+
 export default function Plano() {
     return(
     <ContainerTitle>
@@ -100,7 +104,10 @@ export default function Plano() {
                <Paragrafo>
                Desconto Consumo Barbearia (Cerveja, café, água e etc)
                </Paragrafo>
+               <A href="https://wa.me/5547988274347?text=Quero+entra+no+Club+Ramos+%21" 
+               target="_blank">
                <Button>Assinar</Button>
+               </A>
             </CaixaStyled>
 
             <CaixaStyled>
@@ -125,7 +132,10 @@ export default function Plano() {
                <Paragrafo>
                Desconto Consumo Barbearia (Cerveja, café, água e etc)
                </Paragrafo>
+               <A href="https://wa.me/5547988274347?text=Quero+entra+no+Club+Ramos+%21" 
+               target="_blank">
                <Button>Assinar</Button>
+               </A>
             </CaixaStyled>
 
             <CaixaStyled>
@@ -147,7 +157,10 @@ export default function Plano() {
                <Paragrafo>
                Desconto Consumo Barbearia (Cerveja, café, água e etc)
                </Paragrafo>
+               <A href="https://wa.me/5547988274347?text=Quero+entra+no+Club+Ramos+%21" 
+               target="_blank">
                <Button>Assinar</Button>
+               </A>
             </CaixaStyled>
         </ContainerStyled>
     </ContainerTitle>

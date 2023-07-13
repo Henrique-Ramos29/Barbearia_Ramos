@@ -69,7 +69,8 @@ export default function Banner() {
             <Divi>
              <Paragrafo>Agende agora seu horário!</Paragrafo>
              <Paragrafo02>Segunda a Sábado das 8:30 as 18:00</Paragrafo02>
-             <LinkTagA href="https://wa.link/anpp3p" target="_blank">
+             <LinkTagA href="https://wa.me/5547988274347?text=Oi+queria+fazer+um+agendamento++%3F" 
+             target="_blank">
              <Button>AGENDAR</Button>
              </LinkTagA>
             </Divi>
