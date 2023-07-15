@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import ImagemLogo from '../../imagem/Logo-Ramos.png'
 import MenuLink from '../MenuLink';
-import { BiSolidHome, BiCut, BiSolidMap, BiSolidUserCircle, BiSolidTrophy, BiSolidCool, BiSolidShareAlt } from "react-icons/bi"
+import { BiSolidHome, BiCut, BiSolidMap, BiSolidUserCircle, BiSolidTrophy, BiSolidCool, BiSolidStoreAlt } from "react-icons/bi"
 
 const ContainerHeader = styled.header`
    display: flex;
@@ -133,6 +133,15 @@ function Header() {
                         </LinkLista>
                     </MenuLink>
                     </Lista>
+                    
+                    <Lista>
+                    <MenuLink  to={'/produto'}>
+                        <LinkLista>
+                        <BiSolidStoreAlt size="19" />    
+                           Produtos
+                        </LinkLista>
+                    </MenuLink>
+                    </Lista> 
 
                     <Lista>
                     <MenuLink  to={'/clubramos'}>
@@ -142,6 +151,7 @@ function Header() {
                         </LinkLista>
                     </MenuLink>
                     </Lista> 
+
                     
                 </ContainerLista>
               </Aba>

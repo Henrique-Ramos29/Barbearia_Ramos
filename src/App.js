@@ -11,6 +11,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from './components/ScrollToTop';
 import Fidelidade from './components/Fidelidade';
 import ClubRamos from './components/ClubRamos';
+import Produtos from './components/Produtos';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contato" element={<Contato />} />
           <Route path="/fidelidade" element={<Fidelidade />} />
           <Route path="/clubramos" element={<ClubRamos />} />
+          <Route path="/produto" element={<Produtos />} />
         </Route>
       </Routes>
       <Footer />
