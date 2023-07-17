@@ -12,6 +12,13 @@ const Alerta = styled.h1`
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+
+    @media screen and (max-width: 380px) {
+        font-size: 19px;
+        }
+            @media screen and (max-width: 470px) {
+                font-size: 19px;
+        }
 `;
 
 const ContainerStyled = styled.div`
@@ -23,10 +30,12 @@ const ContainerStyled = styled.div`
    @media screen and (max-width: 380px) {
            display: flex;
            flex-wrap: wrap;
+           justify-content: space-evenly;
         }
             @media screen and (max-width: 470px) {
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: space-evenly;
         }
 `;
 
@@ -35,6 +44,14 @@ const Title = styled.h1`
   font-size: 40px;
   font-weight: bold;
   margin: 30px;
+   
+   
+  @media screen and (max-width: 380px) {
+           font-size: 20px;
+        }
+            @media screen and (max-width: 470px) {
+                font-size: 20px;
+        }
   
 `;
 
@@ -68,10 +85,10 @@ const TitleStyled = styled.h1`
      font-weight: bold;
   
      @media screen and (max-width: 380px) {
-           font-size: 9px;
+           font-size: 7px;
         }
             @media screen and (max-width: 470px) {
-                font-size: 9px;
+                font-size: 7px;
         }
   
 `;
@@ -82,10 +99,10 @@ const DescricaoStyled = styled.p`
     text-wrap: balance;
 
     @media screen and (max-width: 380px) {
-           font-size: 8px;
+           font-size: 6px;
         }
             @media screen and (max-width: 470px) {
-                font-size: 8px;
+                font-size: 6px;
         }
 ` ;
 
@@ -94,10 +111,10 @@ const Valor = styled.p`
      font-weight: bold;
 
      @media screen and (max-width: 380px) {
-           font-size: 13px;
+           font-size: 9px;
         }
             @media screen and (max-width: 470px) {
-                font-size: 13px;
+                font-size: 9px;
         }
     
 `;
