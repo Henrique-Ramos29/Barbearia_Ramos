@@ -58,9 +58,9 @@ export default function Map() {
     <ContainerTitle>
         <Title>LOCALIZAÇÃO</Title>
         <ContainerMap>
-            <TitleMap>Nosso estabelecimento está localizado no bairro aventureiro.</TitleMap>
+            <TitleMap>Nosso estabelecimento está localizado no bairro centro.</TitleMap>
                 <MapLocalizacao 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.4073998334748!2d-48.80429272518349!3d-26.248438065775908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deae0aff336f69%3A0x7ccb8e56f973c184!2sR.%20Pedro%20Silvestre%20de%20Santiago%20Filho%2C%2084%20-%20Aventureiro%2C%20Joinville%20-%20SC%2C%2089225-760!5e0!3m2!1spt-PT!2sbr!4v1688381895384!5m2!1spt-PT!2sbr" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3774131282!2d-48.142034129517995!3d-0.8518020333789914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a6818a4f44f09d%3A0x966a2ae6e875534f!2sLocadora%20XGAMES!5e0!3m2!1spt-PT!2sbr!4v1693017310594!5m2!1spt-PT!2sbr"
                 width="700" height="450"  allowfullscreen="" 
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </MapLocalizacao>

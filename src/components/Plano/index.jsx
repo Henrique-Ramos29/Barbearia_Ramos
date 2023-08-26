@@ -90,7 +90,7 @@ export default function Plano() {
                  Cabelo
                 </TitlePlano>
             <Valor>
-                 R$ 100,00
+                 R$ 120,00
             </Valor>
                <ParagrafoStyled>
                 por mês
@@ -115,7 +115,7 @@ export default function Plano() {
                  Cabelo & Barba
                 </TitlePlano>
             <Valor>
-                 R$ 150,00
+                 R$ 170,00
             </Valor>
                <ParagrafoStyled>
                 por mês
@@ -143,7 +143,7 @@ export default function Plano() {
                  Barba
                 </TitlePlano>
             <Valor>
-                 R$ 100,00
+                 R$ 120,00
             </Valor>
                <ParagrafoStyled>
                 por mês

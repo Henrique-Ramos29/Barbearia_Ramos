@@ -34,14 +34,16 @@ const ContainerLista = styled.ul`
     @media screen and (max-width: 380px) {
       display: flex;
       flex-direction: column;
-      width: 330px;
+      width: 261px;
+      gap: 6px;
 
       
   }
     @media screen and (max-width: 470px) {
         display: flex;
         flex-direction: column;
-        width: 330px;
+        width: 261px;
+        gap: 6px;
   }
 `;
 
