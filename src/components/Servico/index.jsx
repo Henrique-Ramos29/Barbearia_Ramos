@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import ImgCabelo from '../../imagem/cabelo.jpg';
 import ImgBarba from '../../imagem/barba.jpg';
 import ImgCabeloBarba from '../../imagem/cabelo - barba.jpg';
+import ImgCorteSocial from '../../imagem/social.jpg'
 
 
 const DisplayFlex = styled.div`
@@ -104,24 +105,32 @@ const Servico = () => {
         <DivContainer>
             <Title>SERVIÇOS</Title>
               <SubTitle>Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos clientes</SubTitle>
-        <DisplayFlex>    
-          <DivContainer>
-            <A to={'/'}>
-              <ImgProduto  src={ImgCabelo} width='270' height='270' />
-            </A>
-            <Valor>R$ 15.00</Valor>
-            <Paragrafo>Cabelo</Paragrafo>
-          </DivContainer>
-          <DivContainer>
-            <ImgProduto src={ImgBarba} width='270' height='270' />
-            <Valor>R$ 15.00</Valor>
-            <Paragrafo>Barba</Paragrafo>  
-          </DivContainer>
-          <DivContainer>
-            <ImgProduto src={ImgCabeloBarba} width='270' height='270' />
-            <Valor>R$ 25.00</Valor>
-            <Paragrafo>Cabelo + Barba</Paragrafo>
-          </DivContainer>
+        <DisplayFlex>
+            <DivContainer>
+                <A to={'/'}>
+                  <ImgProduto  src={ImgCorteSocial} width='270' height='270' />
+                </A>
+                <Valor>R$ 15.00</Valor>
+                <Paragrafo>Cabelo Degradê</Paragrafo>
+              </DivContainer>
+                  
+              <DivContainer>
+                <A to={'/'}>
+                  <ImgProduto  src={ImgCabelo} width='270' height='270' />
+                </A>
+                <Valor>R$ 20.00</Valor>
+                <Paragrafo>Cabelo Degradê</Paragrafo>
+              </DivContainer>
+              <DivContainer>
+                <ImgProduto src={ImgBarba} width='270' height='270' />
+                <Valor>R$ 15.00</Valor>
+                <Paragrafo>Barba</Paragrafo>  
+              </DivContainer>
+              <DivContainer>
+                <ImgProduto src={ImgCabeloBarba} width='270' height='270' />
+                <Valor>R$ 25.00</Valor>
+                <Paragrafo>Cabelo + Barba</Paragrafo>
+              </DivContainer>
         </DisplayFlex>
         </DivContainer>
     )
