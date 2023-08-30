@@ -111,7 +111,7 @@ const Servico = () => {
                   <ImgProduto  src={ImgCorteSocial} width='270' height='270' />
                 </A>
                 <Valor>R$ 15.00</Valor>
-                <Paragrafo>Cabelo Degradê</Paragrafo>
+                <Paragrafo>Corte Social</Paragrafo>
               </DivContainer>
                   
               <DivContainer>
@@ -119,7 +119,7 @@ const Servico = () => {
                   <ImgProduto  src={ImgCabelo} width='270' height='270' />
                 </A>
                 <Valor>R$ 20.00</Valor>
-                <Paragrafo>Cabelo Degradê</Paragrafo>
+                <Paragrafo>Corte Degradê</Paragrafo>
               </DivContainer>
               <DivContainer>
                 <ImgProduto src={ImgBarba} width='270' height='270' />
@@ -128,8 +128,8 @@ const Servico = () => {
               </DivContainer>
               <DivContainer>
                 <ImgProduto src={ImgCabeloBarba} width='270' height='270' />
-                <Valor>R$ 25.00</Valor>
-                <Paragrafo>Cabelo + Barba</Paragrafo>
+                <Valor>R$ 30.00</Valor>
+                <Paragrafo>Corte + Barba</Paragrafo>
               </DivContainer>
         </DisplayFlex>
         </DivContainer>
