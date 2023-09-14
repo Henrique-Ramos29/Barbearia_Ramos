@@ -12,11 +12,11 @@ const Imagem = styled.img`
 
    @media screen and (max-width: 380px) {
       font-size: 17px;
-      height: 500px;
+      height: 388px;
   }
         @media screen and (max-width: 480px) {
             font-size: 17px;
-            height: 500px;   
+            height: 388px;   
   }
 `;
 
@@ -28,12 +28,14 @@ const Paragrafo = styled.p`
 
    @media screen and (max-width: 380px) {
       font-size: 36px;
-      margin-top: -61px;
+      margin-top: -170px;
+      margin-left: -74px;
   }
         @media screen and (max-width: 470px) {
             font-size: 36px;  
-            margin-top: -61px; 
-        }
+            margin-top: -170px; 
+            margin-left: -74px;
+  }
 `; 
 
 const Paragrafo02 = styled.p`
@@ -43,10 +45,13 @@ const Paragrafo02 = styled.p`
    text-shadow: 0.1em 0.1em 0.05em black;
 
    @media screen and (max-width: 380px) {
-      font-size: 17px;
+      font-size: 21px;
+      margin-left: -41px;
+
   }
         @media screen and (max-width: 480px) {
-            font-size: 17px;   
+            font-size: 21px;  
+            margin-left: -41px; 
   }
    
 `;
@@ -68,8 +73,8 @@ export default function Banner() {
             <Imagem src={ImagemBanner} alt='Imagem Banner' title='Banner' height="550" />
             <Divi>
              <Paragrafo>Agende agora seu horário!</Paragrafo>
-             <Paragrafo02>Segunda a Sábado das 8:30 as 18:00</Paragrafo02>
-             <LinkTagA href="https://wa.me/5547988274347?text=Oi+queria+fazer+um+agendamento++%3F" 
+             <Paragrafo02>Segunda a Sábado das 9:00 as 18:00</Paragrafo02>
+             <LinkTagA href="https://eagenda.com.br/agendamentos/incluir/henrique-ramos/6045475A" 
              target="_blank">
              <Button>AGENDAR</Button>
              </LinkTagA>

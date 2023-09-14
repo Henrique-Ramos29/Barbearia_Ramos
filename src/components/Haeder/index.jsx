@@ -7,18 +7,19 @@ const ContainerHeader = styled.header`
    display: flex;
    flex-direction: column;
    align-items: center;
-   gap: 11px;
 `;
 
 const Logo = styled.img`
 
        @media screen and (max-width: 380px) {
-           width: 200px;
-           height:200px;
+    
+           width: 140px;
+           height:140px;
         }
             @media screen and (max-width: 470px) {
-                width: 200px;
-                height:200px;
+                
+                width: 140px;
+                height:140px;
         }
 `;
 
@@ -59,15 +60,15 @@ const Lista = styled.li`
 
     @media screen and (max-width: 380px) {
         box-shadow: 7px 11px 11px rgba(0, 0, 0, 0.08);
-        margin: 9px;
-        border-radius: 7px;
-        text-align: cente;
+        margin: 4px;
+        border-radius: 5px;
+        text-align: center;
       
   }
     @media screen and (max-width: 470px) {
-        box-shadow: 7px 11px 11px rgba(0, 0, 0, 0.08);
-        margin: 9px;
-        border-radius: 7px;
+        box-shadow: 7px 11px 11px rgba(0, 0, 0, 0.1);
+        margin: 4px;
+        border-radius: 5px;
         text-align: center;
         
   }
@@ -104,7 +105,7 @@ function Header() {
                         <MenuLink  to={'/servico'}>
                             <LinkLista >
                             <BiCut size="19" />
-                                Serviços
+                                Preço
                              </LinkLista>
                         </MenuLink>
                     </Lista>
@@ -149,7 +150,7 @@ function Header() {
                     <MenuLink  to={'/clubramos'}>
                         <LinkLista>
                         <BiSolidCool size="19" />    
-                            Club
+                            Plano
                         </LinkLista>
                     </MenuLink>
                     </Lista> 

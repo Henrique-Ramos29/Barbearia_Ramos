@@ -6,7 +6,7 @@ const Botao = styled.button`
   border-radius: 10px;
   border: 2px solid white;
   color: white;
-  padding: 16px 32px;
+  padding: 7px 68px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
