@@ -22,7 +22,7 @@ function App() {
         <Route path="/" element={<PaginaPadrao />} >
         </Route>
         <Route path="/servico" element={<Servico />} />
-        <Route path="/map" element={<Map />} />
+        <Route path="/map" element={<Map />} /> 
         <Route path="/contato" element={<Contato />} />
         <Route path="/fidelidade" element={<Fidelidade />} />
         <Route path="/clubramos" element={<ClubRamos />} />

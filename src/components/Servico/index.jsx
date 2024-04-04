@@ -110,7 +110,7 @@ const Servico = () => {
                 <A to={'/'}>
                   <ImgProduto  src={ImgCorteSocial} width='270' height='270' />
                 </A>
-                <Valor>R$ 15.00</Valor>
+                <Valor>R$ 10.00</Valor>
                 <Paragrafo>Corte Social</Paragrafo>
               </DivContainer>
                   
@@ -118,19 +118,15 @@ const Servico = () => {
                 <A to={'/'}>
                   <ImgProduto  src={ImgCabelo} width='270' height='270' />
                 </A>
-                <Valor>R$ 20.00</Valor>
+                <Valor>R$ 15.00</Valor>
                 <Paragrafo>Corte Degradê</Paragrafo>
               </DivContainer>
               <DivContainer>
                 <ImgProduto src={ImgBarba} width='270' height='270' />
-                <Valor>R$ 15.00</Valor>
+                <Valor>R$ 10.00</Valor>
                 <Paragrafo>Barba</Paragrafo>  
               </DivContainer>
-              <DivContainer>
-                <ImgProduto src={ImgCabeloBarba} width='270' height='270' />
-                <Valor>R$ 30.00</Valor>
-                <Paragrafo>Corte + Barba</Paragrafo>
-              </DivContainer>
+              
         </DisplayFlex>
         </DivContainer>
     )

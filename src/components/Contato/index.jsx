@@ -74,7 +74,7 @@ const A = styled.a`
            <A target="_black" href="https://wa.me/5547988274347?text=Oi+queria+uma+ajuda+%3F">
             <TextIcones>
               <BiLogoWhatsapp size="70" />
-            (47) 98827-4347
+            (47) 99924-7819
             </TextIcones>
              </A>
           
