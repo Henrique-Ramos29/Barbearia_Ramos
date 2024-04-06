@@ -73,7 +73,8 @@ export default function Banner() {
             <Imagem src={ImagemBanner} alt='Imagem Banner' title='Banner' height="550" />
             <Divi>
              <Paragrafo>Agende agora seu horário!</Paragrafo>
-             <Paragrafo02>Segunda a Sábado das 9:00 as 18:00</Paragrafo02>
+             <Paragrafo02>Segunda a Sábado das 8:30 ás 19:00</Paragrafo02>
+             <Paragrafo02>Domingo das 8.30 ás 12:30</Paragrafo02>
              <LinkTagA href="https://eagenda.com.br/agendamentos/incluir/henrique-ramos/6045475A" 
              target="_blank">
              <Button>AGENDAR</Button>

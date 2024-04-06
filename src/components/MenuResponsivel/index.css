@@ -1,0 +1,42 @@
+.menu {
+    position: relative;
+  }
+  
+  .menu-toggle {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .menu-list {
+    display: none;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+  }
+  
+  .menu.open .menu-list {
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .menu-list {
+      position: static;
+      display: block;
+    }
+  
+    .menu.open .menu-list {
+      display: none;
+    }
+  }
+  

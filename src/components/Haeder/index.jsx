@@ -33,18 +33,18 @@ const ContainerLista = styled.ul`
     margin-bottom: 20px;
 
     @media screen and (max-width: 380px) {
-      display: flex;
-      flex-direction: column;
-      width: 261px;
-      gap: 6px;
+        display: flex;
+        flex-direction: column;
+        width: 184px;
+        gap: 0px;
 
       
   }
     @media screen and (max-width: 470px) {
         display: flex;
         flex-direction: column;
-        width: 261px;
-        gap: 6px;
+        width: 184px;
+        gap: 0px;
   }
 `;
 
@@ -54,7 +54,7 @@ const Lista = styled.li`
     text-decoration: none;
     
       &:hover {
-        scale: 1.2;
+        scale: 1.1;
         transition: 0.6s;
       }
 
