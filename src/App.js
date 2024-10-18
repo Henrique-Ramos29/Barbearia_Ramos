@@ -12,12 +12,14 @@ import ScrollToTop from './components/ScrollToTop';
 import Fidelidade from './components/Fidelidade';
 import ClubRamos from './components/ClubRamos';
 import Produtos from './components/Produtos';
+import MenuBar from './components/MenuBarra';
 
 function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
       <Header />
+      <MenuBar />
       <Routes>
         <Route path="/" element={<PaginaPadrao />} >
         </Route>

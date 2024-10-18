@@ -71,10 +71,10 @@ const A = styled.a`
         <TitleContato>CONTATO</TitleContato>
         <ContainerContato>
           <DivIcones>
-           <A target="_black" href="https://wa.me/5547988274347?text=Oi+queria+uma+ajuda+%3F">
+           <A target="_black" href="https://w.app/TfwG3k">
             <TextIcones>
               <BiLogoWhatsapp size="70" />
-            (47) 99924-7819
+            (91) 985561176
             </TextIcones>
              </A>
           

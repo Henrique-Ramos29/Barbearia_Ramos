@@ -20,6 +20,12 @@ const DisplayFlex = styled.div`
       display: flex;
       flex-direction: column;
   }
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+}
+
 `;
 
 
@@ -63,8 +69,11 @@ const ImgProduto = styled.img`
       width: 270px;
   }
      @media screen and (max-width: 470px) {
-        margin-left: 47px; 
-        width: 270px; 
+      margin-left: 0;
+      width: 266px; 
+  }
+  @media screen and (max-width: 768px) {
+      align-self: center;
   }
 `;
 
@@ -96,40 +105,44 @@ const A = styled.a`
   &:hover {
         border-color: blue;
       }
+
+      @media screen and (max-width: 768px) {
+        align-self: center;
+    }
 `;
 
 
 const Servico = () => {
 
-    return(
+  return (
+    <DivContainer>
+      <Title>SERVIÇOS</Title>
+      <SubTitle>Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos clientes</SubTitle>
+      <DisplayFlex>
         <DivContainer>
-            <Title>SERVIÇOS</Title>
-              <SubTitle>Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos clientes</SubTitle>
-        <DisplayFlex>
-            <DivContainer>
-                <A to={'/'}>
-                  <ImgProduto  src={ImgCorteSocial} width='270' height='270' />
-                </A>
-                <Valor>R$ 10.00</Valor>
-                <Paragrafo>Corte Social</Paragrafo>
-              </DivContainer>
-                  
-              <DivContainer>
-                <A to={'/'}>
-                  <ImgProduto  src={ImgCabelo} width='270' height='270' />
-                </A>
-                <Valor>R$ 15.00</Valor>
-                <Paragrafo>Corte Degradê</Paragrafo>
-              </DivContainer>
-              <DivContainer>
-                <ImgProduto src={ImgBarba} width='270' height='270' />
-                <Valor>R$ 10.00</Valor>
-                <Paragrafo>Barba</Paragrafo>  
-              </DivContainer>
-              
-        </DisplayFlex>
+          <A to={'/'}>
+            <ImgProduto src={ImgCorteSocial} width='270' height='270' />
+          </A>
+          <Valor>R$ 10.00</Valor>
+          <Paragrafo>Corte Social</Paragrafo>
         </DivContainer>
-    )
+
+        <DivContainer>
+          <A to={'/'}>
+            <ImgProduto src={ImgCabelo} width='270' height='270' />
+          </A>
+          <Valor>R$ 15.00</Valor>
+          <Paragrafo>Corte Degradê</Paragrafo>
+        </DivContainer>
+        <DivContainer>
+          <ImgProduto src={ImgBarba} width='270' height='270' />
+          <Valor>R$ 10.00</Valor>
+          <Paragrafo>Barba</Paragrafo>
+        </DivContainer>
+
+      </DisplayFlex>
+    </DivContainer>
+  )
 }
 
 export default Servico;

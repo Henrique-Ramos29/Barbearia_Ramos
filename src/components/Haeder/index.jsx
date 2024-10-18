@@ -7,6 +7,7 @@ const ContainerHeader = styled.header`
    display: flex;
    flex-direction: column;
    align-items: center;
+}
 `;
 
 const Logo = styled.img`
@@ -33,18 +34,16 @@ const ContainerLista = styled.ul`
     margin-bottom: 20px;
 
     @media screen and (max-width: 380px) {
-        display: flex;
-        flex-direction: column;
-        width: 184px;
-        gap: 0px;
+        display: none;
 
       
   }
     @media screen and (max-width: 470px) {
-        display: flex;
-        flex-direction: column;
-        width: 184px;
-        gap: 0px;
+        display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+        display: none;
   }
 `;
 
@@ -86,78 +85,78 @@ const LinkLista = styled.a`
 `;
 
 function Header() {
-    return(
+    return (
         <ContainerHeader>
-            <Logo src={ImagemLogo} alt='Logo Barbearia Ramos' width='250' height='250'/>
-              <Aba>
+            <Logo src={ImagemLogo} alt='Logo Barbearia Ramos' width='250' height='250' />
+            <Aba>
                 <ContainerLista>
-                    
+
                     <Lista>
-                        <MenuLink  to={'/'}>
-                         <LinkLista>
-                           <BiSolidHome size="18" />
-                            Home
-                         </LinkLista> 
+                        <MenuLink to={'/'}>
+                            <LinkLista>
+                                <BiSolidHome size="18" />
+                                Home
+                            </LinkLista>
                         </MenuLink>
                     </Lista>
 
                     <Lista>
-                        <MenuLink  to={'/servico'}>
+                        <MenuLink to={'/servico'}>
                             <LinkLista >
-                            <BiCut size="19" />
+                                <BiCut size="19" />
                                 Preço
-                             </LinkLista>
+                            </LinkLista>
                         </MenuLink>
                     </Lista>
 
                     <Lista>
-                        <MenuLink  to={'/map'}>
+                        <MenuLink to={'/map'}>
                             <LinkLista >
-                            <BiSolidMap size="19" />
+                                <BiSolidMap size="19" />
                                 Localização
-                             </LinkLista>
+                            </LinkLista>
                         </MenuLink>
                     </Lista>
 
                     <Lista>
-                    <MenuLink  to={'/contato'}>
-                        <LinkLista>
-                         <BiSolidUserCircle size="19" />
-                            Contato
-                        </LinkLista>
-                    </MenuLink>
+                        <MenuLink to={'/contato'}>
+                            <LinkLista>
+                                <BiSolidUserCircle size="19" />
+                                Contato
+                            </LinkLista>
+                        </MenuLink>
                     </Lista>
 
                     <Lista>
-                    <MenuLink  to={'/fidelidade'}>
-                        <LinkLista>
-                        <BiSolidTrophy size="19" />    
-                            Fidelidade
-                        </LinkLista>
-                    </MenuLink>
+                        <MenuLink to={'/fidelidade'}>
+                            <LinkLista>
+                                <BiSolidTrophy size="19" />
+                                Fidelidade
+                            </LinkLista>
+                        </MenuLink>
                     </Lista>
-                    
-                    <Lista>
-                    <MenuLink  to={'/produto'}>
-                        <LinkLista>
-                        <BiSolidStoreAlt size="19" />    
-                           Produtos
-                        </LinkLista>
-                    </MenuLink>
-                    </Lista> 
 
                     <Lista>
-                    <MenuLink  to={'/clubramos'}>
-                        <LinkLista>
-                        <BiSolidCool size="19" />    
-                            Plano
-                        </LinkLista>
-                    </MenuLink>
-                    </Lista> 
+                        <MenuLink to={'/produto'}>
+                            <LinkLista>
+                                <BiSolidStoreAlt size="19" />
+                                Produtos
+                            </LinkLista>
+                        </MenuLink>
+                    </Lista>
 
-                    
+                    <Lista>
+                        <MenuLink to={'/clubramos'}>
+                            <LinkLista>
+                                <BiSolidCool size="19" />
+                                Plano
+                            </LinkLista>
+                        </MenuLink>
+                    </Lista>
+
+
                 </ContainerLista>
-              </Aba>
+            </Aba>
         </ContainerHeader>
     )
 }
